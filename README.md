@@ -1,5 +1,11 @@
 # Maetrial Design Delete Concept Implement
 
+设计师辛苦啃iOS，很菜，很多地方一次性效果。望各位不吝赐教。
+
+这个效果在iPhone模拟器中模拟效果并不好，然而按设计者，也就是我同事的本意来说，人机交互是手指和屏幕共同作用，当手指触摸在屏幕上，自然遮挡住了看似不佳的效果
+
+另：这是iOS实现，非安卓
+
 A simple implement of my workmate Xerlee's [animation concept](https://dribbble.com/shots/2245626-Material-Design-Delete)' on iOS.
 
 Though we both are Motion Designer,but I'm always amazing by his design concept.
@@ -16,4 +22,3 @@ Xerlee's Design
 
 My Code Effect
 
-P.S 设计师辛苦啃iOS，很菜，很多地方一次性效果。望各位不吝赐教。
