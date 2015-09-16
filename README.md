@@ -4,7 +4,7 @@ A simple implement of my workmate Xerlee's [animation concept](https://dribbble.
 
 Though we both are Motion Designer,but I'm always amazing by his design concept.
 
-So I decide to simple implement this animation.
+So I decide to simple implement this animation.()
 
 By the way,[UIEffectDesigner](https://github.com/icanzilb/UIEffectDesignerView) is used in this project & very useful,thank to the author!
 
@@ -16,4 +16,4 @@ Xerlee's Design
 
 My Code Effect
 
-
+P.S 设计师辛苦啃iOS，很菜，很多地方一次性效果。望各位不吝赐教。
