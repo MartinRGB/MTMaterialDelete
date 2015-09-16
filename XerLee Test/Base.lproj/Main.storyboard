@@ -21,10 +21,10 @@
                                 <gestureRecognizers/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWx-z9-Fex">
-                                <rect key="frame" x="17" y="142" width="286" height="73"/>
+                                <rect key="frame" x="0.0" y="142" width="320" height="73"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L1" translatesAutoresizingMaskIntoConstraints="NO" id="ygg-fp-sV2">
-                                        <rect key="frame" x="0.0" y="0.0" width="286" height="73"/>
+                                        <rect key="frame" x="17" y="0.0" width="286" height="73"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -38,15 +38,6 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-Ws-nMd">
-                                <rect key="frame" x="59" y="538" width="202" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gRA-mw-ZDI"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L345" translatesAutoresizingMaskIntoConstraints="NO" id="zt7-fB-PRr">
                                 <rect key="frame" x="17" y="311" width="286" height="243"/>
                             </imageView>
