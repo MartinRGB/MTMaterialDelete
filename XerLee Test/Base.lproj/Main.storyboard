@@ -30,10 +30,10 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="grd-Yt-Uuv">
-                                <rect key="frame" x="17" y="225" width="286" height="73"/>
+                                <rect key="frame" x="0.0" y="225" width="320" height="73"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L2" translatesAutoresizingMaskIntoConstraints="NO" id="Snc-h7-9Rn">
-                                        <rect key="frame" x="0.0" y="0.0" width="286" height="73"/>
+                                        <rect key="frame" x="17" y="0.0" width="286" height="73"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
