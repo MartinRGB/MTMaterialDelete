@@ -8,7 +8,10 @@ So I decide to simple implement this animation.
 
 By the way,[UIEffectDesigner](https://github.com/icanzilb/UIEffectDesignerView) is used in this project & very useful,thank to the author!
 
-![Effect](https://github.com/MartinRGB/MTMaterialDelete/blob/master/342.gif?raw=true)
+![Xerlee's design](https://d13yacurqjgara.cloudfront.net/users/747857/screenshots/2245626/____.gif?raw=true)
+Xerlee's Design
 
+![Implement Effect](https://github.com/MartinRGB/MTMaterialDelete/blob/master/342.gif?raw=true)
+Code Effect
 
 
