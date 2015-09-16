@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EA3A46A1BA89B43005C99B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3A4691BA89B43005C99B1 /* main.m */; };
+		2EA3A46D1BA89B43005C99B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3A46C1BA89B43005C99B1 /* AppDelegate.m */; };
+		2EA3A4701BA89B43005C99B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3A46F1BA89B43005C99B1 /* ViewController.m */; };
+		2EA3A4731BA89B43005C99B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3A4711BA89B43005C99B1 /* Main.storyboard */; };
+		2EA3A4751BA89B43005C99B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3A4741BA89B43005C99B1 /* Images.xcassets */; };
+		2EA3A4781BA89B43005C99B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3A4761BA89B43005C99B1 /* LaunchScreen.xib */; };
+		2EA3A4841BA89B43005C99B1 /* XerLee_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3A4831BA89B43005C99B1 /* XerLee_TestTests.m */; };
+		2EA3A4901BA8A7B6005C99B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA3A48F1BA8A7B6005C99B1 /* QuartzCore.framework */; };
+		2EA3A4931BA8A7FE005C99B1 /* UIEffectDesignerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3A4921BA8A7FE005C99B1 /* UIEffectDesignerView.m */; };
+		2EA3A4961BA8A8AE005C99B1 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3A4951BA8A8AE005C99B1 /* NSData+Base64.m */; };
+		2EA3A4991BA8A951005C99B1 /* particle.ped in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3A4981BA8A951005C99B1 /* particle.ped */; };
+		2EA3A49B1BA8ACA1005C99B1 /* Parcitle2.ped in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3A49A1BA8ACA1005C99B1 /* Parcitle2.ped */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EA3A47E1BA89B43005C99B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA3A45C1BA89B43005C99B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA3A4631BA89B43005C99B1;
+			remoteInfo = "XerLee Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA3A4641BA89B43005C99B1 /* XerLee Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XerLee Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA3A4681BA89B43005C99B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA3A4691BA89B43005C99B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EA3A46B1BA89B43005C99B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EA3A46C1BA89B43005C99B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EA3A46E1BA89B43005C99B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EA3A46F1BA89B43005C99B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EA3A4721BA89B43005C99B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA3A4741BA89B43005C99B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2EA3A4771BA89B43005C99B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2EA3A47D1BA89B43005C99B1 /* XerLee TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XerLee TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA3A4821BA89B43005C99B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA3A4831BA89B43005C99B1 /* XerLee_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XerLee_TestTests.m; sourceTree = "<group>"; };
+		2EA3A48F1BA8A7B6005C99B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2EA3A4911BA8A7FE005C99B1 /* UIEffectDesignerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEffectDesignerView.h; sourceTree = "<group>"; };
+		2EA3A4921BA8A7FE005C99B1 /* UIEffectDesignerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEffectDesignerView.m; sourceTree = "<group>"; };
+		2EA3A4941BA8A8AE005C99B1 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		2EA3A4951BA8A8AE005C99B1 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		2EA3A4981BA8A951005C99B1 /* particle.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = particle.ped; path = Asset/particle.ped; sourceTree = SOURCE_ROOT; };
+		2EA3A49A1BA8ACA1005C99B1 /* Parcitle2.ped */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Parcitle2.ped; path = Asset/Parcitle2.ped; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EA3A4611BA89B43005C99B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3A4901BA8A7B6005C99B1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3A47A1BA89B43005C99B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA3A45B1BA89B43005C99B1 = {
+			isa = PBXGroup;
+			children = (
+				2EA3A48F1BA8A7B6005C99B1 /* QuartzCore.framework */,
+				2EA3A4661BA89B43005C99B1 /* XerLee Test */,
+				2EA3A4801BA89B43005C99B1 /* XerLee TestTests */,
+				2EA3A4651BA89B43005C99B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA3A4651BA89B43005C99B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3A4641BA89B43005C99B1 /* XerLee Test.app */,
+				2EA3A47D1BA89B43005C99B1 /* XerLee TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA3A4661BA89B43005C99B1 /* XerLee Test */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3A46B1BA89B43005C99B1 /* AppDelegate.h */,
+				2EA3A46C1BA89B43005C99B1 /* AppDelegate.m */,
+				2EA3A46E1BA89B43005C99B1 /* ViewController.h */,
+				2EA3A46F1BA89B43005C99B1 /* ViewController.m */,
+				2EA3A4971BA8A8B7005C99B1 /* Particle */,
+				2EA3A4711BA89B43005C99B1 /* Main.storyboard */,
+				2EA3A4741BA89B43005C99B1 /* Images.xcassets */,
+				2EA3A4761BA89B43005C99B1 /* LaunchScreen.xib */,
+				2EA3A4671BA89B43005C99B1 /* Supporting Files */,
+			);
+			path = "XerLee Test";
+			sourceTree = "<group>";
+		};
+		2EA3A4671BA89B43005C99B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3A4681BA89B43005C99B1 /* Info.plist */,
+				2EA3A4691BA89B43005C99B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EA3A4801BA89B43005C99B1 /* XerLee TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3A4831BA89B43005C99B1 /* XerLee_TestTests.m */,
+				2EA3A4811BA89B43005C99B1 /* Supporting Files */,
+			);
+			path = "XerLee TestTests";
+			sourceTree = "<group>";
+		};
+		2EA3A4811BA89B43005C99B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3A4821BA89B43005C99B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EA3A4971BA8A8B7005C99B1 /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3A4941BA8A8AE005C99B1 /* NSData+Base64.h */,
+				2EA3A4951BA8A8AE005C99B1 /* NSData+Base64.m */,
+				2EA3A4911BA8A7FE005C99B1 /* UIEffectDesignerView.h */,
+				2EA3A4921BA8A7FE005C99B1 /* UIEffectDesignerView.m */,
+				2EA3A4981BA8A951005C99B1 /* particle.ped */,
+				2EA3A49A1BA8ACA1005C99B1 /* Parcitle2.ped */,
+			);
+			name = Particle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EA3A4631BA89B43005C99B1 /* XerLee Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA3A4871BA89B43005C99B1 /* Build configuration list for PBXNativeTarget "XerLee Test" */;
+			buildPhases = (
+				2EA3A4601BA89B43005C99B1 /* Sources */,
+				2EA3A4611BA89B43005C99B1 /* Frameworks */,
+				2EA3A4621BA89B43005C99B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XerLee Test";
+			productName = "XerLee Test";
+			productReference = 2EA3A4641BA89B43005C99B1 /* XerLee Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EA3A47C1BA89B43005C99B1 /* XerLee TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA3A48A1BA89B43005C99B1 /* Build configuration list for PBXNativeTarget "XerLee TestTests" */;
+			buildPhases = (
+				2EA3A4791BA89B43005C99B1 /* Sources */,
+				2EA3A47A1BA89B43005C99B1 /* Frameworks */,
+				2EA3A47B1BA89B43005C99B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA3A47F1BA89B43005C99B1 /* PBXTargetDependency */,
+			);
+			name = "XerLee TestTests";
+			productName = "XerLee TestTests";
+			productReference = 2EA3A47D1BA89B43005C99B1 /* XerLee TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA3A45C1BA89B43005C99B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = KingMartin;
+				TargetAttributes = {
+					2EA3A4631BA89B43005C99B1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2EA3A47C1BA89B43005C99B1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2EA3A4631BA89B43005C99B1;
+					};
+				};
+			};
+			buildConfigurationList = 2EA3A45F1BA89B43005C99B1 /* Build configuration list for PBXProject "XerLee Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA3A45B1BA89B43005C99B1;
+			productRefGroup = 2EA3A4651BA89B43005C99B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA3A4631BA89B43005C99B1 /* XerLee Test */,
+				2EA3A47C1BA89B43005C99B1 /* XerLee TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA3A4621BA89B43005C99B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3A4731BA89B43005C99B1 /* Main.storyboard in Resources */,
+				2EA3A4781BA89B43005C99B1 /* LaunchScreen.xib in Resources */,
+				2EA3A4751BA89B43005C99B1 /* Images.xcassets in Resources */,
+				2EA3A49B1BA8ACA1005C99B1 /* Parcitle2.ped in Resources */,
+				2EA3A4991BA8A951005C99B1 /* particle.ped in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3A47B1BA89B43005C99B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA3A4601BA89B43005C99B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3A4931BA8A7FE005C99B1 /* UIEffectDesignerView.m in Sources */,
+				2EA3A4701BA89B43005C99B1 /* ViewController.m in Sources */,
+				2EA3A4961BA8A8AE005C99B1 /* NSData+Base64.m in Sources */,
+				2EA3A46D1BA89B43005C99B1 /* AppDelegate.m in Sources */,
+				2EA3A46A1BA89B43005C99B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3A4791BA89B43005C99B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3A4841BA89B43005C99B1 /* XerLee_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EA3A47F1BA89B43005C99B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA3A4631BA89B43005C99B1 /* XerLee Test */;
+			targetProxy = 2EA3A47E1BA89B43005C99B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EA3A4711BA89B43005C99B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA3A4721BA89B43005C99B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA3A4761BA89B43005C99B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA3A4771BA89B43005C99B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EA3A4851BA89B43005C99B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EA3A4861BA89B43005C99B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA3A4881BA89B43005C99B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "XerLee Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EA3A4891BA89B43005C99B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "XerLee Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EA3A48B1BA89B43005C99B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XerLee TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XerLee Test.app/XerLee Test";
+			};
+			name = Debug;
+		};
+		2EA3A48C1BA89B43005C99B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XerLee TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XerLee Test.app/XerLee Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA3A45F1BA89B43005C99B1 /* Build configuration list for PBXProject "XerLee Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3A4851BA89B43005C99B1 /* Debug */,
+				2EA3A4861BA89B43005C99B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA3A4871BA89B43005C99B1 /* Build configuration list for PBXNativeTarget "XerLee Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3A4881BA89B43005C99B1 /* Debug */,
+				2EA3A4891BA89B43005C99B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EA3A48A1BA89B43005C99B1 /* Build configuration list for PBXNativeTarget "XerLee TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3A48B1BA89B43005C99B1 /* Debug */,
+				2EA3A48C1BA89B43005C99B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA3A45C1BA89B43005C99B1 /* Project object */;
+}
